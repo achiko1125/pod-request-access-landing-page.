@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#errortext{
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FB3E3E;
+    text-align: left;
+    width: 491px;
+    margin-top: 8px;
+}
+.maindiv{
+    background-color: #121725;
+    height: 100%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url(mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.headerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+}
+html{
+    height: 100%;
+}
+.sectiondiv span{
+    color: #54E6AF;
+}
+h1{
+   color: white;
+   font-weight:400 ;
+   font-size: 27px;
+   line-height: 38px;
+   text-align: center;
+   padding-top: 57px;
+   font-family: Archivo;
+}
+.sectionp{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color:#C2CBE5;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.footerdiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+    gap: 23px;
+}
+.spotify{
+    height: 17px;
+}
+.apple{
+    height: 17px;
+}
+.google{
+    height: 8px;
+}
+.pocket{
+    height: 12px;
+}
+.emailbutton{
+    all: unset;
+    color: white;
+    background-color: #2C344B;
+    width: 263px;
+    height: 46px;
+    border-radius: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 48px;
+    padding-left: 32px; 
+    padding-right: 32px;
+}
+form{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submitbutton{
+    background-color: #54E6AF;
+    color: #121725;
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    width: 326px;
+    border-radius: 28px;
+    margin-top: 16px;
+    justify-content: center;
+    height: 46px;
+}
+.mediadiv{
+    display: none;
+}
+@media (min-width: 768px){
+    body{
+        background-image: url(tablet/image-host.jpg);
+        background-color: #121725 ;
+        background-position: right top;
+        
+    }
+    .div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #121725;
+        width: 635px;
+        margin-top: 152px;
+    }
+    .maindiv{
+        background-color: transparent;
+        opacity: 1;
+        align-items: start;
+    }
+    .submitbutton{
+        position: absolute;
+        width: 162px;
+        text-align: center;
+        display: flex;
+        right: 9px;
+        top: 5px;
+        margin-top: 0;   
+    }
+    .footerdiv{
+       position: relative;
+       top: 50px;
+    }
+    .emailbutton{
+        width: 427px;
+        height: 56px;
+        margin-top: 0;
+        position: relative;
+        right: 36px;
+        margin-left: 0px;
+    }
+    form{
+        position: relative;
+        width: 427px;
+    }
+    .headerdiv{
+        margin-top:50px ;
+        margin-left: 40px;
+    }
+    h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    width: 635px;
+    position: relative;
+    right: 60px;
+    }
+    .sectionp{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 445px;
+        margin-top:31px ;
+    }
+    .mediadiv{
+        display: flex;
+        gap: 40px;
+        margin-top: 73px;
+    }
+    .spotify1{
+        width: 95px;
+    }
+    .apple1{
+        width: 78px;
+    }
+    .pocket1{
+        width: 129px;
+    }
+    @media (min-width: 1440px){
+        .maindiv{
+         margin-left: 155px;
+         
+        }
+        body{
+         background-image: url(desktop/image-host.jpg);
+         background-position: center right;
+        }
+        .maindiv{
+         margin-top: 8px;
+        }
+        .div{
+         width: 723px;
+         
+        }
+        .desktoplogo{
+         margin-left: 40px;
+        }
+        h1{
+         font-size: 52px;
+         line-height: 62px;
+        }
+     }
+}
